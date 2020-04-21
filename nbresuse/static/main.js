@@ -8,7 +8,7 @@ define([
                       .addClass('btn-group')
                       .addClass('pull-right')
             .append(
-                $('<strong>').text('Memory: ')
+                $("<i>").attr('class', 'fa fa-microchip').attr('style', 'margin: 2px 2px 2px;' )
             ).append(
                 $('<span>').attr('id', 'nbresuse-mem')
                            .attr('title', 'Actively used Memory (updates every 5s)')
